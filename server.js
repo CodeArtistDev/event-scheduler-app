@@ -35,7 +35,7 @@ app.use(helmet());
 app.use(
   cors({
     origin:
-      'https://vercel.com/codeartistdevs-projects/event-scheduler-frontend/EagLcpVPUtJ6j2HrpoXWCpcN19vx',
+      'https://event-scheduler-frontend-git-main-codeartistdevs-projects.vercel.app',
     credentials: true,
   })
 )
