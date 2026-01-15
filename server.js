@@ -34,17 +34,17 @@ app.use(express.json());
 app.use(helmet());
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin:
+      'https://vercel.com/codeartistdevs-projects/event-scheduler-frontend/EagLcpVPUtJ6j2HrpoXWCpcN19vx',
     credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
   })
 )
+
 
 app.use(xss());
 
 app.get('/', (req, res) => {
-  res.send('Event scheduler api');
+  res.send('Event scheduler API Running');
 });
 
 // API routes
