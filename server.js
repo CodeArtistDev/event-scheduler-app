@@ -34,7 +34,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(
   cors({
-    origin: 'https://event-scheduler-frontend-sable.vercel.app',
+    origin: 'https://event-scheduler-frontend-1.vercel.app',
     credentials: true,
   })
 )
