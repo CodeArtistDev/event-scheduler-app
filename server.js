@@ -34,8 +34,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(
   cors({
-    origin:
-      'https://event-scheduler-frontend-git-main-codeartistdevs-projects.vercel.app',
+    origin: 'https://event-scheduler-frontend-sable.vercel.app',
     credentials: true,
   })
 )
